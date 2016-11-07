@@ -99,7 +99,7 @@ static inline void heartbeat_forever(void)
 }
 
 static char * cTest = "hello world";
-int c_entry(void)
+int main(void)
 {
     
     init_led_output();
